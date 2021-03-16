@@ -1,0 +1,111 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_REV_FIRE            BITMAP                  "Textures\\rev_fire.bmp"
+
+IDB_REV_STATIC          BITMAP                  "Textures\\rev_static.bmp"
+
+IDB_SHOTGUN_FIRE        BITMAP                  "Textures\\Shotgun_fire.bmp"
+
+IDB_SHOTGUN_GILZAIN     BITMAP                  "Textures\\Shotgun_gilzain.bmp"
+
+IDB_SHOTGUN_GILZAOUT    BITMAP                  "Textures\\Shotgun_gilzaout.bmp"
+
+IDB_SHOTGUN_STATIC      BITMAP                  "Textures\\Shotgun_static.bmp"
+
+IDB_BASHWALL            BITMAP                  "Textures\\bashwall.bmp"
+
+IDB_BASHWALL_EXITDOOR   BITMAP                  "Textures\\bashwall_exitdoor.bmp"
+
+IDB_BRICKWALL           BITMAP                  "Textures\\brickwall.bmp"
+
+IDB_BRICKWALL_EXITDOOR  BITMAP                  "Textures\\brickwall_exitdoor.bmp"
+
+IDB_BRICKWALL_EXITDOOR_CLOSED BITMAP                  "Textures\\brickwall_exitdoorClosed.bmp"
+
+IDB_MEDKIT              BITMAP                  "Textures\\medkit.bmp"
+
+IDB_ARMOR               BITMAP                  "Textures\\armor.bmp"
+
+IDB_FIREBALL            BITMAP                  "Textures\\fireball.bmp"
+
+IDB_GHOST               BITMAP                  "Textures\\ghost.bmp"
+
+IDB_GHOST_ATTACK        BITMAP                  "Textures\\ghost_attack.bmp"
+
+IDB_WIZARD              BITMAP                  "Textures\\Wizard.bmp"
+
+IDB_WIZARD_ATTACK       BITMAP                  "Textures\\Wizard_attack.bmp"
+
+IDB_REV_ENTITY          BITMAP                  "Textures\\rev_entity.bmp"
+
+IDB_SHOTGUN_ENTITY      BITMAP                  "Textures\\shotgun_entity.bmp"
+
+IDB_GAMEOVER_WALL       BITMAP                  "Textures\\GameOverWall.bmp"
+
+IDB_WIN_WALL            BITMAP                  "Textures\\WinWall.bmp"
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

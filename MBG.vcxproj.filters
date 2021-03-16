@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Entityes">
+      <UniqueIdentifier>{cec90dc5-7c72-45fa-b546-45379cca035b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine">
+      <UniqueIdentifier>{45b2a8b2-5b86-42f2-940e-0097717eb8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entityes">
+      <UniqueIdentifier>{7e72c41a-a837-4175-be4f-a95c9329b515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{60eb1b49-a9e0-4fec-8f0a-cae7c58347b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Weapons">
+      <UniqueIdentifier>{e0cd50d0-18e8-4120-8dd6-2b7c82d33f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Weapons">
+      <UniqueIdentifier>{402621dd-18ca-4c04-8dd2-d9525f2c9db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Arms">
+      <UniqueIdentifier>{93e92f10-c93c-4c10-a9d7-631ab66eecd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Walls">
+      <UniqueIdentifier>{03d902b6-fa9d-4fa3-b29f-f3eb715db565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Entityes">
+      <UniqueIdentifier>{5ae90e24-5e02-40e8-ad60-d17fd4607353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Inscription">
+      <UniqueIdentifier>{01c08c8b-84b8-4429-a91b-20b2578e8657}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicKit.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.c">
+      <Filter>Исходные файлы\Entityes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendring.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.c">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.c">
+      <Filter>Исходные файлы\Weapons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Armor.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Declarations.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitiesManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendring.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicKit.h">
+      <Filter>Файлы заголовков\Entityes</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Файлы заголовков\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MBG.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\rev_fire.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\rev_static.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\Shotgun_fire.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\Shotgun_gilzain.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\Shotgun_gilzaout.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\Shotgun_static.bmp">
+      <Filter>Файлы ресурсов\Arms</Filter>
+    </Image>
+    <Image Include="Textures\bashwall.bmp">
+      <Filter>Файлы ресурсов\Walls</Filter>
+    </Image>
+    <Image Include="Textures\bashwall_exitdoor.bmp">
+      <Filter>Файлы ресурсов\Walls</Filter>
+    </Image>
+    <Image Include="Textures\brickwall.bmp">
+      <Filter>Файлы ресурсов\Walls</Filter>
+    </Image>
+    <Image Include="Textures\brickwall_exitdoor.bmp">
+      <Filter>Файлы ресурсов\Walls</Filter>
+    </Image>
+    <Image Include="Textures\brickwall_exitdoorClosed.bmp">
+      <Filter>Файлы ресурсов\Walls</Filter>
+    </Image>
+    <Image Include="Textures\apteka.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\armor.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\fireball_entity.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\ghost.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\ghost_attack.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\Wizard.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\Wizard_attack.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\rev_entity.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\shotgun_entity.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\fireball.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\medkit.bmp">
+      <Filter>Файлы ресурсов\Entityes</Filter>
+    </Image>
+    <Image Include="Textures\GameOverWall.bmp">
+      <Filter>Файлы ресурсов\Inscription</Filter>
+    </Image>
+    <Image Include="Textures\WinWall.bmp">
+      <Filter>Файлы ресурсов\Inscription</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
